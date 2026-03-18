@@ -1,0 +1,12 @@
+[
+  { "op": "To Hex",
+    "args": ["Space", 8] },
+  { "op": "Swap endianness",
+    "args": ["Hex", 8, true] },
+  { "op": "From Hex",
+    "args": ["Space"] },
+  { "op": "To Hex",
+    "args": ["None", 8] },
+  { "op": "Reverse",
+    "args": ["Line"] }
+]
